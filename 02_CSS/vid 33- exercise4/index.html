@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playpen+Sans+Thai:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        :root {
+            --border: 2px solid black;
+            --txt-color: white;
+            --color: rgb(0, 119, 255);
+            --seccolor: rgb(155, 202, 255);
+            --defmargin: 15px;
+            --defpad: 17px 24px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: var(--seccolor);
+            font-family: "Playpen Sans Thai", cursive;
+            /* margin: var(--defmargin); */
+        }
+        nav {
+            background-color: var(--color);
+            /* margin: var(--defmargin); */
+        }
+
+        nav ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        ul li {
+            color: var(--txt-color);
+            /* border: var(--border); */
+            padding: var(--defpad);
+            /* list-style-type: "😉"; */
+            list-style-position: inside;
+        }
+
+        .content{
+            margin: 5px 0 0 0;
+            background-color: var(--seccolor);
+            margin: var(--defmargin);
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- exercise is to design an navbar using variables (using vid 30) which will be an multicolor navbar which will cange its color contrast according to user choice -->
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Notes</li>
+                <li>Courses</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat velit dignissimos, consequuntur sint quidem laudantium? Accusantium facere atque enim? Voluptatem reprehenderit alias maiores eaque labore omnis, beatae dolorem ipsam magni deleniti architecto at quas consectetur ut, reiciendis est voluptatum aspernatur! Libero ad fugiat velit qui?</div>
+</body>
+
+</html>

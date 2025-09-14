@@ -1,0 +1,87 @@
+  NEW LEARNED PROPERTIES IN css-->
+  
+    1.we can add system fonts by using font-family tag and there has to be more than 1 font in font family so that if some system do no have 1st style then it will be rotated to 2nd and 3rd as needed
+
+    2.font-style: it is used to style content like italic, obalic etc..
+
+    3.font-weight: it is basically making the font bold but with unit like giving it value which decides how bold will the font be
+
+    4.text-decoration: as of name it is for text decoration like underline , overline etc..
+
+    5. font-size: for adjusting size 
+
+    6.line-height: adjust spacing between two lines 
+
+    7.letter-spacing: used to adjust spacing between letters (is in px)
+
+    8.text-transform: this adjust the text case 
+        eg, a. uppercase -all letters uppercase
+            b. lowercase -all letters lowercase 
+            c. capitalize - first letter of each word capital
+
+    9.text-decoration-color: it will decide color of underline or overline
+
+    10.text-decoration-style: to decide text decoration style
+            a.dotted
+            b.double
+            c.wavy 
+            d.solid 
+            e.dashed
+
+    11.text-decoration-thickness: to adjust thikness of underline in px
+
+    12.text-indent: push content to right side of the page in px and other unit
+
+    13.overflow: to control wether to break a word if it is going on next line due to min space
+        break all ; for breaking
+    
+    14.text-align: for alignment of content 
+        a.center 
+        b.end 
+        c.right 
+        d.left 
+        e.
+
+
+
+
+
+
+WAYS TO ADD ONLINE FONT (using google fonts)-->
+
+1.BY LINK (USING HTML)---->
+
+    a.first add link code provided in website by copying it for example the bellow one - and paste it in head section of html-
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    b.now add tags in style tag like example given bellow to perticular part you want that font to be- 
+
+    font-family: "Playpen Sans Thai", cursive;
+
+2.BY @import ()-->
+
+    a.firstly copy and paste url in style tag -
+
+    eg,
+    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+    b.then add font family to required selector-
+    font-family: "Playpen Sans Thai", cursive;
+
+
+
+
+
+
+
+
+USING INSPECT FOR PROPER SIZE AND WEIGHT OF FONT(OTHER THINGS CAN ALSO BE DONE)-->
+
+    so we can use the inspect option from left click on website for temporary changes in size color or any other changes and can see which is better 
+
+    also if we like that change we can just copy changed code from there and replace it in original code

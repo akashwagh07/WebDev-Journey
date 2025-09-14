@@ -1,0 +1,8 @@
+in this tutorial I have learnt about the roll of classes and id in html 
+
+Id --> th id is an unique identity for the div element and it is used only once but an id can be under multiple classes 
+        called as #idname {} in css
+
+
+Classes --> there can be more than one id's in one class and it is used to edit or design the specific div only by giving them the same class
+    classes are called by .class_name {} in css to add changes in its designs and is applied to all elements under that class 

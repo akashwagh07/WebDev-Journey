@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sizing units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        /* html{
+            font-size: 12px;
+        } */
+
+        div{
+            border: 2px solid black;
+            /* width: 1553px; */
+            width: 80vw;
+            margin: 23px;
+            /* height: 10vh; */
+            /* margin: auto; */
+            background-color: aquamarine;
+            box-sizing: border-box;
+        }
+
+        .container{
+            border: 2px solid black;
+            /* width: 1553px; */
+            width: 80vw;
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 16px;
+            background-color: rgb(241, 230, 130);
+            box-sizing: border-box;
+        }
+
+        .container > div{
+            font-size: 1.2rem;
+            width: 50%;
+            border-color: red;
+            /* width 50% make it take 50% width of the parent element */
+        }
+
+        .container > div >p{
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .mycont{
+            box-sizing: border-box;
+            margin: 23px auto;
+            /* background-color: red; */
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            width: 80vw;
+            border: 2px solid black;
+        }
+
+        a{
+            font-size: 20px;
+        }
+
+        a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        i am a box
+    </div>
+    <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units">I am web for finding more units if needed</a>
+
+    <div class="container">    
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus est cupiditate temporibus consequatur beatae, veniam perspiciatis, dolore vel libero aspernatur fuga vitae alias sapiente corporis illum laboriosam perferendis deleniti sunt accusamus dicta? Sequi, officiis? At omnis recusandae quidem nobis quasi nulla ratione quisquam eligendi nisi ipsum placeat totam officia voluptatibus sequi, necessitatibus inventore officiis aspernatur provident!
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure qui molestiae, consequuntur quos provident deleniti accusamus sed facilis nobis eius illum. Dicta, earum.
+            </p>
+        </div>
+        lorem400 
+    </div>
+
+    <div class="mycont">
+        I am another container
+    </div>
+</body>
+</html>

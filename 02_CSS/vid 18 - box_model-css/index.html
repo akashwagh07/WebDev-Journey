@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <style>
+        span{
+            color: blue;
+            border-color: aquamarine;
+            width: 200px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            color: yellow;
+            padding: 10px;
+            margin: 35px;
+            border: 2px solid #0000ff;
+            height: 200px;
+            box-sizing: border-box;
+            
+        }
+        .box2{
+            color: red ;
+            padding: 10px;
+            margin: 20px;
+            border: 2px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+        .box{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">I am a box </div>
+    <div class="box box2">I am box too</div>
+
+    <img src="box model.png" alt="box model image" height="200px" width="300px">
+    <img src="margin collapse.png" alt="margin collaps image" height="200">
+
+
+    <div>
+        <span type="inline-block">
+        hello i am span and i am trying to figure out wether an inline element can be used as box model or not 
+        <br>
+        and answer is no i am not able to add width or height or either bg color is not applying only color is applicable
+        </span>
+    </div>
+</body>
+</html>

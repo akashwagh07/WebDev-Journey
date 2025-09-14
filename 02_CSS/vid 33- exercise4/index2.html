@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar design</title>
+    <style>
+        :root {
+            --color: rgb(0, 189, 241);
+            --seccolor: rgb(165, 236, 255);
+            --defpadding: 10px 15px;
+            --defmargin: 10px;
+            --textcolor: white;
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: var(--seccolor);
+        }
+
+        nav{
+            margin: 0;
+            padding: 0;
+            background-color: var(--color);
+        }
+
+        nav ul{
+            display: flex;
+        }
+
+        ul li{
+            padding: var(--defpadding);
+            margin: var(--defmargin);
+            list-style: none;
+            color: var(--textcolor);
+            font-weight: bolder;
+            font-size: larger;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <head>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+                <li>Notes</li>
+            </ul>
+        </nav>
+    </head>
+</body>
+
+</html>

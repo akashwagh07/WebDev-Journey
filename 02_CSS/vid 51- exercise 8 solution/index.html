@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 8-solution</title>
+    <style>
+        .box {
+            height: 121px;
+            width: 121px;
+            background-color: red;
+            border-radius: 70px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation: animatey 1s ease-out infinite alternate,animatex 3s linear infinite;;
+        }
+
+        .container {
+            position: relative;
+            height: 80vh;
+            width: 80v;
+            background-color: blue;
+        }
+
+        @keyframes animatey {
+            from {
+                bottom: 0;
+            }
+
+            to {
+                bottom: 100%;
+            }
+        }
+
+        @keyframes animatex {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>

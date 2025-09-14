@@ -1,0 +1,55 @@
+MORE SELECTORS:
+
+    .box::first-line{}
+        applies properties to only first line 
+
+    .boxes *{}
+        for selecting all elements under class boxes
+
+    p,a,.box,[data-color="primary"]{}
+        like this multiple selectors can be used 
+
+    .box:nth-child(odd){}
+        like this nth child selector can be used for even or odd number child
+
+    .box:nth-last-child(2){}
+        this will select the 2nd child while counting from bottom
+
+    .box::first-letter{}
+        for selecting first letter
+
+
+
+
+
+  
+
+
+PSUEDO ELEMENTS:
+
+    1. .boxes::before{
+            content: "Harry is good";
+        }
+
+    this will add an content before class boxes which says "Harry is good"
+    NOTE:this one property is used so much in web devb dev
+
+    2. .boxes::after{
+            color: red;
+            content: "Sigma Cource is OP ";
+        }
+
+    this is same as above element , it just adds the content after the element
+
+    3. ::selection{
+            background-color: black;
+            color: aqua;
+        }
+
+    this is to style the text that we select (ie., by clicking and draging the cursor)
+
+    4. input::placeholder{
+            color: rgb(114, 106, 122);
+        }
+
+    is an selector which selects to style placeholder.

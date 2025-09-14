@@ -1,0 +1,22 @@
+1. using arithmatic operators 
+    console.log(age + grace)
+    console.log(age - grace)
+    console.log(age * grace)
+    console.log(age / grace)
+    console.log(age ** grace)
+    console.log(age % grace)
+
+2. Assignment operators
+    a=+b adds b in adds
+    -like this -,* etc can be used
+
+3.  = (used for assigning value)
+    == (is used for checking values are equal)
+    === (checking values and data type is equal /same)
+
+4. logical operators
+
+    - && (and operator )
+    - || (or operator )
+    - ! (logical not)
+    

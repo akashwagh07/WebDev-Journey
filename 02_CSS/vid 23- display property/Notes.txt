@@ -1,0 +1,26 @@
+DISPLAY PROPERTIES:
+
+    1.inline
+    -changes that element into an inline element 
+
+    2.none
+    -this property makes the box disappear from its place ,its space is also disappeared
+
+    3. display: flex;
+       justify-content: center;
+    -to centre the content of box   
+    -we can set display property as inline flex so that the elements will be aligned in line dispite having the flex which makes content centre
+
+    4.Extra properties link
+    -above properties are the mostly used properties but if needed you can learn other disaplay properties from the link given bellow
+    -https://developer.mozilla.org/en-US/docs/Web/CSS/display
+    -Above is link for other display properties 
+
+
+
+
+
+OTHER PPROPERTIES:
+
+    1.visibility: hidden;
+    -this property make that element invisible but its spae is kept empty ie.,it hides the element

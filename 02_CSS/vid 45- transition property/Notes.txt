@@ -1,0 +1,18 @@
+TRANSITION IN CSS 
+    1. transition-property: transform,background-color;
+        -this selects which property to use transition on 
+        -selecting property as all will set transition for all properties
+
+    2. transition-duration: 2s;
+        -this is to set how much time will it take to complete the transition 
+        
+    3. transition-timing-function: ease-in-out;
+        -set the speed during start mid and end etc in all state(use inspect for more)
+        -just copy paste the values after using inspect and getting an perfect timing function 
+
+    4. transition-delay: 0.2s;
+        -set how much time it will taketo start the transition 
+
+    5. transition: all 2s ease-in-out 0.2s;
+        -to set all properties in one line of code 
+        -1,property/2,duration/3,timing-function/4,delay 

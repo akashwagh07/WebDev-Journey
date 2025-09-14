@@ -1,0 +1,19 @@
+CSS VARIABLE'S:
+
+:root {
+            --color: rgb(255, 247, 0);
+            --seccolor: rgb(133, 156, 103);
+            --defpad: 23px;
+            --defop: 0.2;
+        }
+
+
+        Above is an GLOBAL variable which uses different values for different properties and this is what an variable does these values can be used in different selectors so that whenever we need to change the value of an property in mass selectors we will just need to change it in variable and it will be applied to all of the selectors in which variable is used
+
+        this is not only used for color but can be used for any property which has any value and this value can be given in any selector
+
+opacity: var(--defop);
+padding: var(--defpad);
+border: 2px solid var(--seccolor);
+
+        so the above are the examples of how to use the global variable values which is by using var()   

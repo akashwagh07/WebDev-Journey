@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 6-navbar using flexbox(ultraedit)</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            /* justify-content: center; */
+            margin: 0px 15vw;
+            display: flex;
+        }
+        header nav{
+            width: 70vw;
+            align-content: center;
+        }
+        nav img{
+            width: 200px;
+            height: 60px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: end;
+        }
+        ul li{
+            
+            list-style-type: none;
+            padding: 0px 10px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li>Products</li>
+                <li>Pricing</li>
+                <li>Resources</li>
+                <li>About us</li>
+                <li><ion-icon name="language-sharp"></ion-icon></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

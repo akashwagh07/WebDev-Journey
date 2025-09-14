@@ -1,0 +1,53 @@
+1. img{
+            width: 468px;
+            height: 488px;
+            object-fit: cover;
+        }
+
+
+    here the width and height of the container doesnt matter but the image itself fits in the aspect ratio of the given width and height of the image (so that image will look good in the given paramenter instead of stretching out)
+
+OBJECT FIT- 
+
+1. object-fit: cover;
+    -covers the image in given width and height(not the parents but img's itselfs) by some portion of the image
+
+2. object-fit: contain;
+    -this fits the image in given height and width with the aspect ratio of the image but now the conainer's extra part is kept blank as     
+    -the image is fitted according to its aspec ratio without changing its original ratio
+
+3. object-fit: fill;
+    -this is the by default property of object fit which makes the image stretch for being fit completely in given area
+
+4. object-fit: scale-down;
+    -as of name it reduce image size making it fitted in the area given
+    -it may result like contain
+
+
+OBJECT POSITION-
+
+1. object-position: bottom right; 
+    -as to fit the image in the given area the image has to be cut down
+    -so which part to focus on can be set using object position 
+    -this can be anything like top right ,top left ,bottom right,bottom left etc. 
+
+2. object-fit: cover;
+   object-position: 10px 13px;
+        -here using the object position the image can be translated anywhere in x and y directions by just giving values in px 
+        -doesnt matter what object fit is applied the image will include the respective changes 
+
+BACKGROUND IMAGE-
+
+1. background-position: 50% 50%;
+    -the image is used as background not as image itself 
+    -the image visible at background is in its original size and to select which area to be visible this property background image is used
+
+2. when background image is smaller than the given area and then the image repeats itself with no gap in all direction until it fits all the area 
+
+3. background-repeat: norepeat;
+    -this is to prevent the bg image to repreat and only one image will be visible 
+    -values like repeat x and repeat-y can be used to choose direction in which repeatation in allowed 
+
+4. background-clip: padding-box;
+    -this is to select wether image in background is including the padding /border etc.
+    -values used are - padding-box/border-box/content-box etc. 

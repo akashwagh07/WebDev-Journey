@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css display property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid rgb(196, 255, 1);
+            display: inline-block;
+            /* as we have set this as an inline element it does not aquire any padding or margin from top part of the box , also width canno be added to it */
+            /* this problem can be solved by changing display property to inline-block */
+            padding: 45px;
+            margin: 34px;
+            width: 200px;
+
+
+            /* to centre the content of box  */
+            display: inline-flex;
+            justify-content: center;
+        }
+
+        .box1{
+            /* display: none;   */
+            /* this property makes the box disappear from its place ,its space is also disappeared*/
+
+            /* visibility: hidden; */
+            /* this property make that element invisible but its spae is kept empty ie.,it hides the element  */
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        i am a box
+    </div>
+    
+    <div class="box">i am also a box</div>
+    <span>i am a good</span>
+    <span>boy</span>
+</body>
+</html>

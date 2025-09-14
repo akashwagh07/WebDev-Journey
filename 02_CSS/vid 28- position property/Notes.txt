@@ -1,0 +1,14 @@
+1. position relative
+2.position absolute (for selecting nearest parent to set parameters like top,left etc.)
+3.position fixed (eg., for ads,element will not change its position even after scrolling or whatever it will remain to same position)
+4.position sticky (ex. for nav bar, element will be same until we will scroll till its top edge but after scrolling further it will stick to top edge of the page)
+
+
+
+
+
+
+Z-index: any number
+
+so the above property of z index is used for setting up the priority for an element to be on top of another element 
+like if an element has z index 5 and another has 6 then definitely the one having zindex 6 will be on top if bth elements overlap each other 

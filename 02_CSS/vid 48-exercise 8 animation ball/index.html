@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            background-color: blue;
+            width: 900px;
+            height: 90vh;
+            display: flex;
+            position: relative;
+        }
+
+        .move {
+            bottom: 0px;
+            left: 0px;
+            position: absolute;
+        }
+
+        .ball {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            /* position: absolute; */
+
+            border-radius: 50px;
+
+        }
+
+        .move {
+            animation: move 3s linear 0s infinite alternate;
+        }
+
+        .bounce {
+            animation: bounce 0.4s cubic-bezier(0.39, 0.58, 0.57, 1) 0s infinite alternate;
+        }
+
+        @keyframes move {
+            from {
+                transform: translateX(0px);
+            }
+
+            to {
+                transform: translateX(800px);
+            }
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(0px);
+            }
+
+            to {
+                transform: translateY(-110px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- make an big blue box and then add an another box which is smaller and add border radius to it and make it an circle / then add animation or transition such that ball will bounce while going forward-->
+
+    <div class="box">
+        <div class="move">
+            <div class="ball bounce">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

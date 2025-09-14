@@ -1,0 +1,36 @@
+1. transform: rotate(ndeg);
+2. transform: rotate(0.25turns)
+    rotates element by n degrees or n turns 0.25 turn =90 deg and 0.5 turn=180 deg same 1 turn =360 turn 
+
+3.transform: rotateX(40deg);
+  transform: rotateY(40deg);
+  transform: rotateZ(40deg);
+    rotates the item alogn x,y,z axis in an 3d way(cool fr)
+
+4.transform: scale(1.2);
+  transform: scaleX(1.2);
+  transform: scaleY(1.2);
+  transform: scaleZ(1.2);
+    scale makes the item n times bigger in size than actual size
+    by using scalex,y,z element can be scalled in single axis
+
+5.transform: skew(30deg);
+transform: skewx(30deg);
+  transform: skewY(30deg);
+    skew stretches the two corners of the item
+    normal skew works for both axis wile skewx works in x axis & skewy works in y axis and skew is not applicable for z axis 
+
+6.transform:translateY(100%);
+  like this translate x.y,z can be used with different units like px,% etc. which moves the item in that axis by given value 
+
+7. transform-origin: 0px(x axis value) 50px(y axis value);
+  this is to define the origin of the item ie., rotations etc will be respective to defined origin 
+
+8.transform: matrix(1.1,0.2639,0.2639,1.1,30,30);
+  matrix(x-scale,y-skew,x-skew,y-scale,x-translate px,y-translate px)
+  here remember that the units should not be given and the angle should be given in tan theta value where theta is our angle and what value calculator shows is the value to enter in formula 
+  matrix is mostly not used as it is too complicated
+
+9.matrix3d : rarely used so leave it
+
+  

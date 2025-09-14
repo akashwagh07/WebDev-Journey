@@ -1,0 +1,20 @@
+1. calc function:
+
+    -height: calc(100% - 70px);
+    -used like this in css
+    -spaces between the sign and values matter it just showed some errors while the values and sign(-) has no space between  
+
+
+2. background-color: transparent;
+    -to make it transparent
+
+3. cursor: pointer;
+    -to use the hand cursor when hovered
+
+4. &gt; for > sign
+    &lt; for < sign to be printed on screen
+
+5. video is only allowed to autoplay when it is muted 
+
+6. line-height: 1.2 ;
+    -for assigning height value

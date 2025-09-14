@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* element selector  */
+        /* div{
+            background-color: red;
+        } */
+
+        /* class selector  */
+        .red{
+        background-color: red;
+        }
+
+        /* Id selector  */
+        #green{
+            background-color: green;
+        }
+
+        /* child selector  */
+        /* only applies to direct child  */
+        div > p{
+            background-color: aquamarine;
+            color: brown;
+        }
+
+        /* Descendent Selector  */
+        /* applies to every p under div  */
+        div p{
+            background-color: aquamarine;
+            color: brown;
+        }
+
+        /* Universal selector  */
+        * {
+            margin: 0;
+            padding: 0;
+            /* padding is diff between to diff taglines THE EMPTY SPACE BETWEEN TWO LINES  */
+        }
+
+        /* PSEUDO SELECTORS  */
+        
+        /* this edits visited links */
+        a:visited{
+            color: yellow;
+        }
+
+        /* this edits unvisited links */
+        a:link{
+            color: green;
+        }
+
+        /* it edits as instructions while WE CLICK on the part of code  */
+        a:active{
+            background-color: red;
+        }
+
+        /* it edits as instructions while WE MOVE CURSER on the part of code  */
+        a:hover{
+            background-color: yellow;
+        }
+
+
+        p:first-child{
+            background-color: aqua;
+        }
+        /* RESEARCH MORE ON THE PSEUDO TAGS YOURSELF */
+
+    </style>
+</head>
+<body>
+    <div class="red">I am a div but eith class red </div>
+    <div id="green">
+        I am another div
+        <p>I am a para inside div</p>
+        
+    </div>
+    <div>
+        <article>
+            <p>i am para inside div too but i am inside div > article > p</p>
+        </article>
+    </div>
+    <div>
+        <p>I am first child p</p>
+        
+        <p>I am second child p</p>
+        <span>
+            <p>i am 3rd child of div but 1st of span so i am aqua color too</p>
+        </span>
+
+    </div>
+    <a href="https://www.google.com">go to google</a>
+    <a href="https://www.facebook.com">go to facebook</a>
+
+</body>
+</html>

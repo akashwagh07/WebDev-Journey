@@ -1,0 +1,62 @@
+Eery element in html is an box
+
+so in this video i have learned about inspect button which shows the css properties padding ,margin and border and main element etc.
+
+CSS LEARNED:
+Also there are some css commands for editing every part of that element box
+    eg.,
+    .box1{
+            color: yellow;
+            padding: 10px;
+            margin: 5px;
+            border: 2px solid #0000ff;
+            height: 200px;
+            box-sizing: border-box;
+            
+        }
+
+above is the example of class box1 in div tag so here is the explaination:
+
+a.box border says that the 200px height is including the border and padding 
+b.
+
+
+
+
+
+
+About INSPECT:
+1.whatever changes we make in code through the webpage in inspect are temporary and last's till you reload the page
+  it is done through the styles tab 
+2.you can see the margin,padding , content and border pictorial view in it 
+
+
+
+
+
+
+
+MARGIN COLLAPSE:
+
+eg.,
+  .box1{
+            color: yellow;
+            padding: 10px;
+            margin: 35px;
+            border: 2px solid #0000ff;
+            height: 200px;
+            box-sizing: border-box;
+            
+        }
+        .box2{
+            color: red ;
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+in the above example the combined margins ie. diff between two borders of boxes should be 35+25=60 
+but it is 35 it merges the two margins and only greater margin is diff between those two boxes 
+this is called MARGIN COLLAPSE     

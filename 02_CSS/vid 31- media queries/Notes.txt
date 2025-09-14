@@ -1,0 +1,16 @@
+MEDIA QUERIES:
+    media queries are made for responsive designs
+    for eg.,
+
+    body{
+            background-color: red;
+        }
+
+        @media only screen and (max-width: 455px){
+            body{
+                background-color: blue;
+            }
+            
+        }
+
+    in above code bg color will be red but when the width of an device is less than 455 px bg color will turn into blue 

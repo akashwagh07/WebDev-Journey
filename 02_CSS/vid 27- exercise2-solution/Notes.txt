@@ -1,0 +1,3 @@
+1. ctrl + enter : moves curser to next line ,from wherever the curser is 
+
+2. p:nth-child(2) this is selector for nth child ,customize the example value 2 from here to any nth child value 

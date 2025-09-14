@@ -1,0 +1,139 @@
+/* .logo{
+            background-color: blue;
+        } */
+.logo img {
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.right ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.right ul li ion-icon {
+    padding: 5px;
+}
+
+.first {
+    font-family: sans-serif;
+    display: flex;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 34px;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+.first span img {
+    /* width: 70px; */
+    height: 25px;
+    margin: 0 5px;
+}
+
+.first p {
+    width: 51vw;
+    text-align: center;
+    font-size: 19px;
+}
+
+.btn {
+    font-size: 12px;
+    padding: 13px 13px;
+    background-color: rgb(75 192 216);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.second {
+    font-family: sans-serif;
+    max-width: 58vw;
+    margin: auto;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.download {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+}
+
+.download img {
+    padding: 0px 12px;
+    width: 50px;
+}
+
+.download .big {
+    font-size: 19px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+}
+
+.item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 22px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.item_lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+@media screen and (max-width: 1100px ) {
+    .grid {
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: 1fr;
+        /* gap: 14px; */
+    }
+
+}

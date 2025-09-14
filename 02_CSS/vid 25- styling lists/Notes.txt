@@ -1,0 +1,26 @@
+About list items:
+
+    1. list item is basically consist of an marker and list element , the dot appearing before the list item is called as marker.
+
+    2. marker can be styled by using property list-style: which has multiple choices of style like devanagari which adds marathi numering to the list elements also NONE value for property list-style will remove marker from list element
+
+    3. whatever css we apply like bg color and border will be applied only to the list element and to avoid this and include marker too following property is used:
+    list-style-position: inside;
+
+    4.list-style-type: "🥸";
+    [to type emoji use WINDOWS + . (full stop) and choose emoji of your choice]
+    this will add emoji or any other type of mark as marker 
+
+    5.list-style-image: url("https://static.wikia.nocookie.net/pyruslords/images/7/77/Pikachu.png");
+    this will replace marker by image 
+
+    6. list-style: inside url("https://static.wikia.nocookie.net/pyruslords/images/7/77/Pikachu.png");
+    this is how mutiple list-style properties can be used in single line 
+
+    7.by adding css liststyle none to li ,display flex to ul and padding 23px to li nav bar is ready 
+
+
+OTHER PROPERTIES:
+
+    1. display: flex; 
+    this will move list elements in one line

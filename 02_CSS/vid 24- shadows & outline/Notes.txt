@@ -1,0 +1,26 @@
+BOX SHADOW'S:
+
+    1.box-shadow: 5px 15px 6px 2px rgb(23, 188, 230);
+    here the values describes properties as follows-->
+            1st: (5px) x axis SHADOW
+            2nd: (15px) y axis shadow 
+            3rd: (6px) blurness of shadow 
+            4th: (2px) spreading of shadow 
+
+    TIP: by using inspect in browser in styles we can preview the shadow and can adjust is to see preview for required changes and those changes can be applied to source code later after.
+
+    2. box-shadow: inset 5px 15px 6px 2px rgb(23, 188, 230);
+    this is for shadow inside box 
+
+TEXT SHADOW'S: 
+
+     same as box shadow text shadow can be added by using property text-shadow rather all value are given same as box shadow 
+
+
+PROPERTIES LEARNED:
+
+        1. outline: if we apply the border and outline at the same time border will be inside and outline will be outside the border
+
+        2. outline-offset: it can set space between border edge and outline and it is in px & it does not effect the box model of the element like padding marging etc. 
+        outlines have uniform width while borders can have diff widths on different sides . 
+        borders can have round corners , outlines will have it according to borders.

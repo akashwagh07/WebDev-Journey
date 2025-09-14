@@ -1,0 +1,44 @@
+form tag is used to make a form in the html which contain the all element of the form in it 
+
+
+
+FORM MAKING (tags used)
+
+1. <label for="username">Enter your username </label>
+    here we can see how to use label tag to make label 
+2. <input type="text" id="username" name="username" placeholder="enter username">
+    Above is the simple input tag for entering username in placeholder
+    
+    TYPES-
+        A. <input type="text" id="username" name="username" placeholder="enter username">
+
+        ABOVE is the example how to make a placeholder for username which we can use for diff placeholders making 
+
+        B. <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+            </div>
+
+        Above code shows how to use input tag RADIO to make input which only one can be selected and this depends on name 
+
+        C. <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+        Above is the example how to make an checkbox using input tag
+
+3. <textarea name="comment" id="comment" rows="5" cols="50"></textarea>      
+    Above is the example how to make text area this one is for comment it can be used for diff purpose
+
+
+4.  <select name="fruits" id="fruits">
+        <option value="Apple">apple</option>
+        <option value="mango">mango</option>
+        <option value="banana">banananananana</option>
+    </select>
+
+    Above is the example of type of input that is based on given choices 
+
+
+
+NOTE:  Here for every type of input ,selective input , textarea and placeholder the label is given with the same label tag just for every input the id and the command word is changed

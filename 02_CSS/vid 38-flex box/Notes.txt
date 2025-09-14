@@ -1,0 +1,63 @@
+1. justify-content: center;
+    -to center item horizontally
+    -other values that can be used 
+    -flex-end fo moving items at right 
+    -flex-start for moving items to left 
+    -space around -evenly spread space around all items 
+    -space between -evenly spread space between all items 
+
+
+2. align-items: center;
+    -to center items horizontally (for 1 line , for more than that align-content center is used)
+    -flex-end fo moving items at bottom
+    -flex-start for moving items to top 
+    -baseline for aligning all items in same baseline 
+
+3. flex-direction: column;
+    -to align items vertically
+    -column-reverse -for aligning items vertically but in reverse order(ie., last item at top position )
+    -row - to align items vertically 
+    -row-reverse - for aligning in reverse order (ie., first item at last/right side)
+
+4. flex-wrap: wrap;
+    -like phone gallery photos when photos row is full the new item gets fitted in new row this works same for items to be fitted in next row when row is full and overflowing.
+    -wrap-reverse - for wropping in reverse order ie., from bottom right to left and wil be structured upward in reverse order.
+
+5. align-content: center;
+    -this is used to center more than 1 line of items
+    -start,end values can be used to align content at top bottom or left right according to flex direction 
+
+6. flex-flow: row wrap;
+    -first value is flex direction here and second is flex wrap value
+    -this property is used to est those both values together.
+
+7. gap:30px; -adds 30 px gap between every element 
+    -row-gap:20px;
+     column-gap: 10px; 
+     This is to add column and row gap 
+     -gap: 20px 30px; 
+      This adds both row and column gap at the same time 
+      first value for row and second for column 
+
+8.order: 10;
+    -this is used to decide order of an element inside an element by using css 
+    -the greater the order the later element will appear and viseversa.
+    -default order value is 0 so if -1 order is given to an element then that element will appear 1st in its parent element.
+
+9. flex-grow: 5;
+    -element will take 5x space relative to other elements around it 
+
+10.flex-shrink:2;
+    -item w ill shrink 1/2 th value to relative to items around it when size of page is shrinked (remain as normal when page is not shriked)
+
+11.align-self: flex-start;
+    -will align itself at auto/flex-start/flex-end/baseline/center/stretch 
+
+
+  
+
+NOTE: 1. flex direction decides the direction of main axis while column main axis is y and while row maiin axis is x and when we use justify content center it will be centered based on main axis 
+        ie., for column , justify-content: center; is centering vertically.
+        meanwhile for row , justify-content: center; is centering horizontally.
+
+    2. align-items is ussed when only one row exist and align content is used when more than one row exist

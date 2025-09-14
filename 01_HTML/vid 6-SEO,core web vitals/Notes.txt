@@ -1,0 +1,8 @@
+1. Lorem<-num->
+   this provides a para containing num words 
+2. CORE WEB VITALS-
+   this is used to analyze the page we created which grades the web page and helps finding the improvements needed in our web page 
+
+      USE- 
+      RIGHT CLICK --> INSPECT --> LIGHTHOUSE (to see improvements and grade out of 100)
+      Right Click --> INSPECT --> TOGGLE DEVICE TOOL BAR (to watch out the layout of web page on different devices)

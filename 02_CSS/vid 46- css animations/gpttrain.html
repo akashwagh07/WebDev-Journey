@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Train Animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: skyblue;
+            overflow-x: hidden;
+        }
+        .container {
+            display: flex;
+            align-items: end;
+            height: 50vh;
+            width: 100vw;
+            position: relative;
+        }
+        .train {
+            font-size: 30px;
+            display: flex;
+            animation: moveTrain 6s linear infinite reverse;
+            position: relative;
+        }
+        /* Bouncy movement */
+        .train span {
+            display: inline-block;
+            animation: bounce 0.4s ease-in-out infinite alternate;
+        }
+
+        /* Smoke animation */
+        .smoke {
+            position: absolute;
+            top: -30px;
+            left: 10px;
+            font-size: 20px;
+            animation: puff 1s ease-out infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes moveTrain {
+            from { transform: translateX(-300px); }
+            to { transform: translateX(100vw); }
+        }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-5px); }
+        }
+
+        @keyframes puff {
+            0%   { transform: translateY(0) scale(1); opacity: 0.6; }
+            50%  { opacity: 0.4; }
+            100% { transform: translateY(-30px) scale(1.5); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="train">
+            <div class="smoke">💨</div>
+            <span>🚂</span><span>🚃</span><span>🚃</span><span>🚃</span><span>🚃</span>
+        </div>
+    </div>
+
+</body>
+</html>

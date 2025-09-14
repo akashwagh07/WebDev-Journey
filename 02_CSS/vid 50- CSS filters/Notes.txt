@@ -1,0 +1,29 @@
+1. filter: blur(10px);
+    -blur -given in px 
+
+2. filter: brightness(100%);
+    -brightness: given in %
+
+3. filter: contrast(1.2)
+    -given in value directly
+    -in % 
+
+4. filter: grayscale(60%);
+    -to make image black and white 
+    -in %
+
+5. filter: invert;
+    -inverts the image which we see in illusions
+    -1 is complete inversion and 0 is no inversion
+
+6. filter: opacity(1);
+    -its dhundalapan in hindi 
+    -1 is complete clear 
+    -0 is blank(completely dhundala chitra)
+
+7. filter: sepia(20%);
+    -this makes the image likely brown shade
+    -try this
+
+7. filter: brightness(70%) contrast(4.2);
+    like this by giving space multiple filters can be applied at the same time 

@@ -1,0 +1,29 @@
+Cascading is the process by which conflicting CSS rules are resolved by the browser to decide which style to apply.
+
+
+CSS GIVES PREFERENCES BASED ON THE CASCADE ALGORITHM:
+    1. Position and order of appearance: the order in which your CSS rules appear
+
+    2. Specificity: an algorithm that determines which CSS selector has the strongest match
+    
+    specificity order is as follows-->
+    Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+
+    3. Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS 
+
+    4. Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+
+
+
+
+
+
+SPECIFICITY CALCULATION::
+
+    To calculate specificity, assign a value to each part of the selector:
+
+    -Universal Selector: 0
+    -Element selectors and pseudo-elements: 1
+    -Class selectors, attribute selectors, and pseudo-classes: 10
+    -ID selectors: 100
+    -Inline styles: 1000

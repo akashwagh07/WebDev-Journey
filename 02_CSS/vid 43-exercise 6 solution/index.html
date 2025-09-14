@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .logo{
+            background-color: blue;
+        } */
+        .logo img{
+            width: 164px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .right ul{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li{
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+        }
+        .right ul li ion-icon{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Frame-1-2.png" alt="logo">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Project<ion-icon name="chevron-down"></ion-icon></li>
+                    <li>Prices<ion-icon name="chevron-down"></ion-icon></li>
+                    <li>Resources<ion-icon name="chevron-down"></ion-icon></li>
+                    <li>About Us<ion-icon name="chevron-down"></ion-icon></li>
+                    <li style="background-color: black; color: white;"><ion-icon name="language"></ion-icon></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

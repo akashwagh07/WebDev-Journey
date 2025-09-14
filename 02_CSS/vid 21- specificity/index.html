@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity & cascadity</title>
+    <style>
+        /* specificity of this is 1 */
+        h1{
+            color: aqua;
+        }
+
+
+        /* specificity of this is 10 */
+        .yellow{
+            color: yellow;
+        }
+
+        /* specificity of this is 1+10 = 11*/
+        h1.cpurple{
+            color: rgb(0, 255, 187);
+        }
+        
+        /* specificity of this is 10 */
+        .cred{
+            color: rgb(255, 0, 0);
+        }
+
+
+        /* this is an attribute selector and specificity of this selector is 10 */
+        [data-x="a"]{
+            background-color: rgb(85, 0, 255);
+        }
+
+
+
+        
+        /* to calculate this specificity
+        a =1   as it is an element selector
+        harry=10 as it is class selector
+        rohan-class=10 as it is attribut selector
+        href=10 as it indicates specific value for attribute
+        :hover =10 for pseudo selector */
+
+        /* total specificity=41 */
+        a.harry.rohan-class[href]:hover{
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cpurple cred"  data-x="a" >CSS specificity</h1>
+        <p  style=" color: blue;">hello i am para</p>
+    </div>
+    <a href="" class="harry rohan-class" href="/">hover me!</a>
+    </a>
+</body>
+</html>

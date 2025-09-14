@@ -1,0 +1,15 @@
+how to add image   --> <img>
+how to add a  table --> <table>  </table>
+table header footer -->
+table row column span 
+image size 
+ul - unordered list 
+ol - orderes list 
+li - list 
+dl - defination list 
+dt - defination title 
+dd - defination description 
+
+css  ....
+
+border table 

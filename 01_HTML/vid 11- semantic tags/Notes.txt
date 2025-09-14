@@ -1,0 +1,5 @@
+semantic tags are used for understanding of system that what is structure of the webpage 
+
+it is not at all connected to place or adjust any kind of structure in web page but is used just for seo to understand the structre
+
+not to create but to understand the structure

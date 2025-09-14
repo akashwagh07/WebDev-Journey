@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css ainmations</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            align-items: end;
+            background-color: rgb(2, 255, 255);
+            height: 50vh;
+            width: 100vw;
+        }
+
+        .box{
+            
+            font-size: 30px;
+            width: 250px;
+            height: 45px;
+            /* background-color: aqua; */
+            animation: firstanimation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite; 
+            /* value can be set to infinite for continuous animation  */
+
+            animation-timing-function: cubic-bezier(0, 0, 0, 1.27);
+            /* can use ease-in-out etc and then using inspect set whatever you like by just copy pasting value  */
+
+            animation-delay: 1s;
+            /* animation-direction: alternate-reverse; */
+            /* animation-fill-mode: backwards; */
+            /* animation-play-state: paused; */
+            animation: firstanimation 10s ease-in-out 2s infinite reverse forwards;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            
+        }
+
+        @keyframes harry{
+            0%{
+                transform: rotate(30deg);
+            }
+
+            20%{
+                transform: rotate(70deg);
+            }
+
+            50%{
+                transform: rotate(230deg);
+            }
+
+            100%{
+                transform: rotate(310deg);
+            }
+        }
+        @keyframes firstanimation {
+            from{
+                /* background-color: red; */
+            }
+
+            to{
+                /* background-color: yellow; */
+                transform: translatex(1500px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            🚂🚃🚃🚃🚃....
+        </div>
+    </div>
+</body>
+</html>

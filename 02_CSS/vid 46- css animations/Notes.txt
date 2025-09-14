@@ -1,0 +1,43 @@
+1.  @keyframes firstanimation {
+            from{
+                
+            }
+
+            to{
+                transform: translatex(1000px);
+            }
+    }
+
+    -like this firstly name the animation and  then set the transition properties
+
+2. animation: firstanimation;
+    -to give animation name set in above format 
+
+3. animation-duration: 3s; 
+    -to set time duratio for animation to complete transition 
+
+4. animation-iteration-count: 3;  
+    -to set number of times to repeat animation (can be infinite) 
+
+5. animation-timing-function: cubic-bezier(0, 0, 0, 1.27);
+    -can use ease-in-out etc and then using inspect set whatever you like by just copy pasting value
+
+6. animation-delay: 2s;
+    -to set the timing to start animation in number of seconds 
+
+7. animation-direction: reverse;
+    -to set direction 
+    -normal for normal animation direction 
+    -reverse for starting from end (ie., animation works in reverse order)
+    -alternate-reverse for one normal and one reverse animation 
+
+8. animation-fill-mode: forwards;
+    -this set the position of the element after complition of animation 
+    -forwards: for leaving the element in the end position state 
+    -backward: for leaving the element in initial state after omplition of animation
+    -inherit: taking value of parent
+    -initial: takes initial state of element 
+    -unset: Acts as either `inherit` or `initial`, depending on whether the property is inherited or not.
+
+9. animation: name duration timing-function delay iteration-count direction fill-mode;
+    -to set all properties in one line 

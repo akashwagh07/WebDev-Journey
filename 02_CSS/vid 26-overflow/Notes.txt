@@ -1,0 +1,28 @@
+HOW TO CONTROL OVERFLOW:
+    
+    1. overflow: scroll;
+    this will add scroll bars on both sides and prevent content from overflowing
+
+    2. overflow: auto;
+    this will add scroll bar as per requirement based on content size 
+
+    3. white-space: nowrap;
+    this will fit content in a single horizontal line and only horizontal scroll bar will be working/appear 
+
+    4. text-overflow: ellipsis;
+    it will add 3 dots at the end of line where text is overflowing to indicate overflowing text
+
+    5.overflow: hidden; 
+    will hide the overflowing content
+
+    6.overflow: clip;
+    this will work as overflow hidden but will disable the scroll bar too , scrollbar will not appear if clip value is used 
+    -When you want to ensure overflowed content is neither visible nor scrollable, and completely cut off.
+
+    7. 
+    overflow-x: hidden;
+    overflow-y: scroll;
+    by above properties individual side overflow can be handeled 
+
+    8. overflow: hidden auto;
+    here hidden is for x and auto is for y , 7th expression can be given as this too 

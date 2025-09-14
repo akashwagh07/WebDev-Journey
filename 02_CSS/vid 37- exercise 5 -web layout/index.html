@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 5 </title>
+    <style>
+        :root {
+            --color: rgb(116, 0, 116);
+            --seccolor: rgb(180, 98, 180);
+        }
+
+        ::selection {
+            background-color: rgb(35, 35, 35);
+            color: green;
+        }
+
+        img {
+            position: fixed;
+            z-index: 11;
+            bottom: 15px;
+            right: 15px;
+            /* this is to set img position 15px from bottom and 15px from right corner  */
+        }
+
+        * {
+
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--seccolor);
+        }
+
+        nav {
+            display: flex;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            /* without this top:0; the nav bar will not be stucked to top .because the browser will not understand that where to stuck nav bar and it will keep scrolling without stucking the nav bar  */
+        }
+
+        nav ul {
+            width: 100vw;
+            display: flex;
+            background-color: var(--color);
+        }
+
+        ul li {
+            list-style-position: inside;
+            font-size: larger;
+            list-style-type: none;
+            color: white;
+            font-weight: bolder;
+            margin: 5px 25px;
+            padding: 10px;
+        }
+
+        .sec {
+            justify-self: center;
+            justify-content: center;
+            display: flex;
+            background-color: rgb(19, 53, 154);
+            width: 95vw;
+            height: 70vh;
+            margin: 2px;
+            padding: 0;
+        }
+
+        .sec1,
+        .sec2 {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            height: 35vh;
+            width: 35vw;
+            padding: 25px;
+            margin: 30px;
+            background-color: rgb(88, 109, 175);
+        }
+
+        div:nth-child(2) {
+            text-align: center;
+            font-size: x-large;
+            display: flex;
+            justify-content: center;
+            margin: 10px 50px;
+            padding: 30px;
+            border: 3px solid black;
+            border-radius: 30px;
+            align-self: center;
+            height: 15vh;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            height: 25vh;
+            background-color: black;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav>
+        <ul>
+            <li><ion-icon name="home"></ion-icon><a href="#">Home</a></li>
+            <li><ion-icon name="pricetags"></ion-icon><a href="#">About us</a></li>
+            <li><ion-icon name="chatbubbles"></ion-icon></ion-icon><a href="#">Contact</a></li>
+            <li><ion-icon name="document-attach"></ion-icon><a href="#"></a>Notes</li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="sec">
+            <section class="sec1">
+                I am sec 1
+            </section>
+            <section class="sec2">
+                I am sec 2
+            </section>
+        </div>
+        <div>
+            Welcome To This Sigma Web Developement Express
+        </div>
+    </main>
+    <footer>
+        <p>Your go-to platform for learning and exploring web technologies.</p>
+        <div>
+            Thank you for visiting us !❤️
+        </div>
+    </footer>
+    <img src="images.png" alt="ad image" width="50">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

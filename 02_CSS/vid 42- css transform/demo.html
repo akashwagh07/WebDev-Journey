@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo transform</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: aquamarine;
+            display: flex;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+
+        }
+        nav{
+            font-size: 2em;
+            font-weight: bolder;
+        }
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            /* grid-template-columns: 1st 2nd 3rd 4th; */
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px;
+            padding: 5px;
+            background-color: rgb(114, 205, 236);
+            height: 150px;
+            width: 200px;
+        }
+
+        .scalex:hover{
+            transform: scaleX(1.5);
+            /* upgrading size 1.5x of the original in x direction  */
+
+            background-color: rgb(86, 213, 255);
+            /* opacity: 0.6;
+            for making element transparent */
+        }
+
+        .scaley:hover{
+            transform: scaleY(1.5);
+            /* to upgrade items size by 1.5x in y direction  */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .scale:hover{
+            transform: scale(1.5);
+            /* to upgrade the size of element by 1.5x in both x & y direction  */
+            background-color: rgb(86, 213, 255);
+        }
+
+        .translatex:hover{
+            transform: translateX(70px);
+            /* move the element in x direction by 100px  */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .translatey:hover{
+            transform: translatey(70px);
+            /* move the element in y direction by 100px  */
+            
+            background-color: rgb(86, 213, 255);
+        }
+
+        .translate:hover{
+            transform: translate(70px , 70px);
+            /* the element can be moved in both x & y axis(ie., 2d) in px  */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .matrix:hover{
+            transform: matrix(1.1,0.2639,0.2639,1.1,30,30);
+            /* matrix(x-scale,y-skew,x-skew,y-scale,x-translate,y-translate) */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .rotate:hover{
+            transform: rotate(20deg);
+            /* rotate the element by 20 deg */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .skew:hover{
+            transform: skew(20deg, 30deg);
+            /* streches in x and y direction  */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .skewx:hover{
+            transform: skewx(20deg);
+            /* streches in x direction */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .skewy:hover{
+            transform: skewy(20deg);
+            /* streches in y direction  */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .matrix3d:hover{
+            transform: matrix3d(
+                        1.1276,  0.4524, -0.3804,  0.002,   /* Row 1 */
+                        0.1760,  1.0192,  0.6248,  0.002,   /* Row 2 */
+                        0.5372, -0.5479,  0.7771,  0.001,   /* Row 3 */
+                        100,     50,     200,      1        /* Row 4 */
+                        );
+            
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .translate3d:hover{
+            transform: translate3d(20px,20px,20px) ;
+            /* translate element in 3d form ie.,in x,y,z axis */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .rotatey:hover{
+            transform: rotateY(60deg);
+            /* rotates element in y axis */
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .rotatex:hover{
+            transform: rotatex(60deg);
+            /* rotate the element by 20 deg in x*/
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .translatez:hover{
+            transform: translateZ(50px);
+            /* translate in z direction  will update later*/
+
+            background-color: rgb(86, 213, 255);
+        }
+
+        .rotatez:hover{
+            transform: rotateZ(50deg);
+            background-color: rgb(86, 213, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            Transform Effects
+        </nav>
+    </header>
+    <main>
+        <div class="box scalex">
+            scaleX
+        </div>
+        <div class="box scaley">
+            scaleY
+        </div>
+        <div class="box scale">
+            scale
+        </div>
+        <div class="box translatex">   
+            translateX
+        </div>
+        <div class="box translatey">
+            translateY
+        </div>
+        <div class="box translate">
+            translate
+        </div>
+        <div class="box matrix">
+            matrix
+        </div>
+        <div class="box rotate">
+            rotate
+        </div>
+        <div class="box skew">
+            skew
+        </div>
+        <div class="box skewx">
+            skewX
+        </div>
+        <div class="box skewy">
+            skewY
+        </div>
+        <div class="box matrix3d">
+            matrix3d
+        </div>
+        <div class="box translate3d">
+            translate3d
+        </div>
+        <div class="box rotatey">
+            rotateY
+        </div>
+        <div class="box rotatex">
+            rotateX
+        </div>
+        <div class="box translatez">
+            translateZ
+        </div>
+        <div class=" box rotatez">
+            rotateZ
+        </div>
+    </main>
+</body>
+</html>

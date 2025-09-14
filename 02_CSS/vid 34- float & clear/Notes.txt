@@ -1,0 +1,12 @@
+WHAT LEARNED: 
+    1] display: flow-root;
+        above property can be used to adjust content of an div in itself and it does not allows the content to flow outside the div box 
+
+    2] float: right;
+        this above property is used so that tha content will be moved to either side  and the content will allow the other content to be fitted aside it 
+
+    3] clear: right;
+        this will not allow any element to float around its right side also we can use left or both so that it will not allow any element to float at its left or on both the sides
+
+
+the FLOAT & CLEAR properties are just to know and do not use it at all in your website, then what to use?? we will learn in upcoming topics 

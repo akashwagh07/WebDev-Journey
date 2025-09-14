@@ -1,0 +1,31 @@
+1. alert("hello World!!");
+    -to show alert(like notification) when webpage is loaded
+
+2. console.log("Code is running.....");
+    -after inspecting in console tab this msg is printed
+
+3. var a = prompt("Enter your number:")
+    -takes input in variable a 
+    -this is using msg like alert and user can enter number in space provided in alert
+
+4.console.log("your number is " +a)
+    -this prints number saved in a variable in console tab
+
+5. var isTrue = confirm("Are you sure you want to leave the page and burn the computer !!!")
+    -gives options ok or cancel to confirm wether you want to condition to be true or false
+
+6. if(isTrue){
+        console.log("Computer is blasting !!!")
+    }
+    else{
+        console.log("Computer is not blasting....")
+    }
+
+        - if condition is true priint blasting if other than true not blasting 
+
+7. document.title = "Hey I am good"
+    -this changes the document title (one appears in web tab)
+
+8. document.body.style.backgroundColor = "red"
+    -this works as inline css
+

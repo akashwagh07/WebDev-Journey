@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            position: sticky;
+            top: 0;
+        }
+        nav{
+            background-color: pink;
+            height: 50px;
+        }
+
+        main{
+            padding: 34px;
+            background-color: black;
+            color: white;
+        }
+        .container{
+            padding: 37px 20px;
+            height: auto;
+            background-color: green;
+            margin: 8px 16px;
+            text-align: center;
+        }
+
+        .box{
+            margin: 0px 12px;
+            width: 45%;
+            display: inline-block;
+        }
+        .box1{
+            height: 70vh;
+            background-color: palevioletred;
+        }
+
+        .box2{
+            height: 70vh;
+            background-color: blue;
+        }
+
+        .textbox{
+            padding: 30px;
+            border: 2px solid white;
+            margin: 50px 30vw;
+            font-size: 1.4em;
+            border-radius: 13px;
+        }
+
+        .orangebox{
+            height: 50px;
+            width: 50px;
+            background-color: orange;
+            border-radius: 30px;
+            position: fixed;
+            bottom: 10px;
+            right: 15px;
+            z-index: 10;
+        }
+
+        footer{
+            height: 100px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <!-- not using flex box here as it was not covered while exercise was given  -->
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="box box1">
+                
+            </div>
+
+            <div class="box box2">
+
+            </div>
+            
+        </div>
+        <div class="textbox">
+            <p>Welcome to sigma web developement express</p>
+        </div>
+        <div class="orangebox">
+
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

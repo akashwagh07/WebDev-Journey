@@ -1,0 +1,47 @@
+-If we set margin: auto, it will center the box horizontally (if a width is specified).
+-In margin: 10px 20px;, the first value (10px) applies to top and bottom, and the second (20px) applies to left and right.
+
+
+
+
+
+
+SIZING UNITS:
+    1. px --> customize size in pixels
+    2. vw --> viewport width is used for using % viewport width
+                ex., width: 100vw;  == 100% viewport width
+                    width: 80vw;  == 80% viewport width
+    3. vh --> viewport height is used for % height of screen 
+    4. em --> em is used for multiplying the original font size by em  value
+                ex., if class container has given font size 15px and p under div has given 2em so the font size of p under container will be 30px which is twice the size than original 
+    5. rem --> rem is root em means it works same as em but it gives the size which is product of rem value into root selector font value like html selector given in this html file 
+    6. vmin/vmax --> v min is used for different devices it decides which element between height and width to apply it according to its lowest side 
+                like for phone width is min AND for pc height is min 
+                so vmin will be applied to it like above phone-width's %value and pc-height's %value
+
+                AND for phone height is max AND for pc width is max
+                so vmax will be applied to it like above phone-height's %value and pc-width's %value
+    7. % --> so directly giving the % as unit in any property value makes it take that % value of the parent element
+
+
+
+
+
+
+    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units
+
+
+    this above website contains the web for finding more units if needed
+    
+
+
+
+
+    
+    SELF LEARNING :
+
+    ** CTRL+B HIDES THE SIDE LIST**
+    
+    -->Whenever we apply an class to an element then the only  element we applied  a class to the class selector properties will be applied to only that one element 
+
+    -->other elements which are under that element will be applied the properties of that element selector or class or attribute selector if it is applied to it 
