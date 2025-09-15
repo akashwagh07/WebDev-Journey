@@ -7,7 +7,7 @@
     console.log(age % grace)
 
 2. Assignment operators
-    a=+b adds b in adds
+    a=+b adds b in a
     -like this -,* etc can be used
 
 3.  = (used for assigning value)
@@ -20,3 +20,24 @@
     - || (or operator )
     - ! (logical not)
     
+5. conditional if statement :(else-if-ladder)
+
+    if (age > 18) {
+        console.log("You can dive");
+    }
+    else if (age==18)
+    {
+        console.log("soon you will be driving");
+    }
+    else if(age ==0)
+    {
+        console.log("Are you kidding?");
+    }
+    else {
+        console.log("You cannot drive");
+    }
+
+6. let c = a>b?(a-b):(b-a);
+    -this works as if condition 
+    -true : c=a-b 
+    -false: c=b-a
