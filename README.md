@@ -8,7 +8,7 @@ It covers everything from **Frontend (HTML, CSS, JavaScript)** to **Backend (Nod
 ## 📂 Repository Structure  
 
 fullstack-webdev-journey/
-│
+
 ├── 01_HTML/                
 ├── 02_CSS/                 
 ├── 03_JavaScript/          
