@@ -1,0 +1,36 @@
+1. general for loop:
+    for (let i  = 0; i < 100; i++) {
+        console.log(a+i)
+        }
+    -untill condition is true loop will be executed
+
+2. for in loop -
+
+    for (const key in obj) {
+        const element = obj[key];
+        console.log(key,element)
+    }
+
+    -prints the key and element inside the object obj 
+
+3. while loop-
+
+    let i=5;
+    while(i<6){
+        console.log(i);
+        i+=1;
+    }
+
+    -this is example of while loop
+
+4. do while loop (mostly avoided)
+
+    let i=10;
+    do{
+        console.log(i)
+        i++;
+    }while(i<6);
+
+    -here the code will execute at least one irrespective of the condition 
+    -bcz do while loop firstly executes the code at least one and then checks the condition
+    -this is benefitial in some cases so in those do while loop is used
