@@ -6,6 +6,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Node (future use when you reach backend)
+# Node
 node_modules/
 
