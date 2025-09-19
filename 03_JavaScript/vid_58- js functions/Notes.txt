@@ -1,0 +1,58 @@
+-functions adds the reusability in code 
+-
+
+1. function defination example:
+    function nice(name)
+    {
+        console.log("hey "+ name +" you are nice!")
+        console.log("hey "+ name +" you are good!")
+        console.log("hey "+ name +" your tshirt is nice!")
+        console.log("hey "+ name +" your course is nice too!")
+    }
+
+    function sum(a,b)
+    {
+        console.log(a+b)
+    }
+
+        -here "nice" and "sum is function name 
+        -"name" and "a","b" are parameter passed to the function
+
+
+2. function call example:
+    nice("harry")
+    sum(5,6)
+
+        -parameter string "harry" and 5,6 are passed to the functions
+
+
+3. function with return value:
+    function sum(a, b) 
+    {
+        return a + b ;
+    }
+
+        -here the function will return a value a+b
+
+
+4. function sum(a, b, c = 5) 
+    {
+        console.log(a,b,c)
+        return a + b + c;
+    }
+
+        -here when c is passed then it will use the value of c which is passed but in case when only 2 values are passed and value of c is not passed it does not return a value
+        -here it is compalsary to add at least 2 values else it will show nan (not a number)
+
+5. Arrow function defination:
+    const func1=(x)=>{
+        console.log("I am in an arrow function",x);
+    }
+
+        -this is an variable and a function at the same time 
+        -it can be passed to another function 
+        -will learn in upcoming chapters in depth
+
+6. Arrow function call :
+    func1(34);
+        -like normal function call
