@@ -1,0 +1,34 @@
+1. variable template literals :
+    normal way-->
+        console.log("His name is "+realname+" and his friends name is "+ friend);
+    template literals way-->
+        console.log(`His name is ${realname} and his friends name is ${friend}`)
+    
+2. Escape Sequence:
+    let m="Roh\"an"
+    -like this escape sequence can be used \ is ignored and string in m is Roh"an
+
+3. To print lenght of string:
+    console.log(a.length);
+
+4.  String functions:
+    console.log(a.toUpperCase())
+    console.log(a.toLowerCase())
+
+    slicing string :
+        console.log(b.slice(n,m))
+        slice the string from n to m-1 index
+
+    replacing in string :
+        console.log(b.replace("sh","77"))
+        replaces 1st occurance of sh with 77
+
+    concatinate string :
+        console.log(b.concat(a,"Akshay"))
+        concatinate string b with string a and string will end with Akshay
+
+    removing void spaces:
+        let r="    Akash W"
+        let wr=r.trim() 
+        removes void spaces at start and end of string
+    
