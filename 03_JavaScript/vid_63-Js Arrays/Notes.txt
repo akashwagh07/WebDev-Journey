@@ -1,0 +1,66 @@
+1. Arrays is mutable (changes can be made)
+2. String is immutable 
+3. in js type of array is "object"
+4. console.log(arr.toString()); //array converted in comma separated string
+5. console.log(arr.join(" and ")) //array elements will be joined with and instead of comma's
+6. arr.pop() deletes and returns the last element of array
+7. arr.shift()     //delets and returns arr element at index 0
+
+8. arr.push(100) // adds 100 in array at last
+9. arr.unshift(12)   //adds element 12 at index 0
+10. delete arr[4] //delets element at index 4 but space remains empty as it is and lenght of array remains same
+11. // a1.concate(a2,a3); concatinates a1,a2 and a3 array together but none of the array actually changes
+12. numbers.splice(2,3) //returns 3 elements from index 2 and removes those elements from numbers array
+13. r2=numbers2.splice(2,3,22,333) //returns 3 elements from index 2 and removes those elements from numbers2 array and also returns 22 and 333 at the end in in position of removed array elements
+
+14. forEach loop :
+    a.forEach((value,index,arr) => {
+    console.log(value, index,arr)
+    })
+    -prints value its index and then whole array till all index are printed
+
+15. forIn loop :
+    for (const key in obj) {
+        if (Object.hasOwnProperty.call(obj, key)) {
+            const element =obj[key];
+            console.log(element)
+        }
+    }
+    -prints the values in object obj
+
+16. forof loop :
+    for (const value of a) {
+        console.log(value)
+    }
+    -prints all values in array a
+
+17. Map :
+    -instead of using loop for creating an array which contains the square of an array map method is used 
+        //value,index,arr
+        let newarr=arr.map((e,index,arr)=>{
+            return e**2
+        })
+        console.log(newarr);
+    -here 1st value contains element ,second contains the index and third contains the array
+
+18. Filter :
+    -using filter an const can be used as function in js
+        const greaterThanSeven=(e)=>{ //an constant which is a function also
+            if(e>7){
+                return true
+            }
+            return false
+        }
+        console.log(newarr.filter(greaterThanSeven))
+
+19. reduce :
+    const red=(a,b)=>{
+        return a+b
+    }
+    console.log(arr2.reduce(red));
+    
+    -will multiply first two elements of array then multiply the product with 3rd element and so on and final product wil be returned
+
+20. from method for creating array
+    -Array.from("Akash")
+    -like this an array 'Array' can be created which contains string element from string Akash 
